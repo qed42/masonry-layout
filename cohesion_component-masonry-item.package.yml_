@@ -1,0 +1,34 @@
+-
+  type: cohesion_sync_package
+  export:
+    uuid: 89e9b65c-109b-4e16-b98c-300e495afd9b
+    langcode: en
+    status: true
+    dependencies: {  }
+    id: pack_component_masonry_item
+    label: 'Component Masonry Item'
+    description: 'A single masonry item'
+    excluded_entity_types: '[]'
+    settings: '{"59872f48-5748-4f61-adce-1cc65670471e":{"type":"cohesion_component","items":{"59872f48-5748-4f61-adce-1cc65670471e":{"type":"cohesion_component"}},"checked":true}}'
+-
+  type: cohesion_component
+  export:
+    uuid: 59872f48-5748-4f61-adce-1cc65670471e
+    langcode: en
+    status: true
+    dependencies: {  }
+    id: cpt_masonry_item
+    label: 'Masonry item'
+    json_values: '{"canvas":[{"type":"container","uid":"container","title":"Container","status":{"collapsed":false},"uuid":"5acef014-34ad-46a8-b3d4-8a550fafe301","parentUid":"root","isContainer":true,"children":[{"type":"item","uid":"component-drop-zone-placeholder","title":"Component drop zone","status":{"collapsed":true},"uuid":"377aff99-7b28-4d92-b055-177e7c4731bd","parentUid":"container","isContainer":false,"children":[]}]}],"componentForm":[],"mapper":{"5acef014-34ad-46a8-b3d4-8a550fafe301":{"settings":{"formDefinition":[{"formKey":"container-settings","children":[{"formKey":"container-width","breakpoints":[],"activeFields":[{"name":"width","active":true}]},{"formKey":"common-link-animation","breakpoints":[{"name":"xl"}],"activeFields":[{"name":"linkAnimation","active":true},{"name":"animationType","active":true},{"name":"animationScope","active":true},{"name":"animationParent","active":true},{"name":"animationTarget","active":true},{"name":"animationScale","active":true},{"name":"animationDirection","active":true},{"name":"animationDirection","active":true},{"name":"animationDirection","active":true},{"name":"animationDistance","active":true},{"name":"animationPieces","active":true},{"name":"animationOrigin","active":true},{"name":"animationFoldHeight","active":true},{"name":"animationHorizontalFirst","active":true},{"name":"animationIterations","active":true},{"name":"animationEasing","active":true},{"name":"animationDuration","active":true}]},{"formKey":"common-link-modifier","breakpoints":[],"activeFields":[{"name":"modifier","active":true},{"name":"modifierType","active":true},{"name":"interactionScope","active":true},{"name":"interactionParent","active":true},{"name":"interactionTarget","active":true},{"name":"modifierName","active":true}]},{"formKey":"container-style","breakpoints":[],"activeFields":[{"name":"customStyle","active":true},{"name":"customStyle","active":true}]}]}],"selectorType":"topLevel","form":null,"items":[]},"markup":{"formDefinition":[{"formKey":"tab-markup-classes-and-ids","children":[{"formKey":"tab-markup-add-classes","breakpoints":[],"activeFields":[{"name":"classes","active":true}]}]}],"title":"Markup","selectorType":"topLevel","form":null,"items":[]},"styles":{"formDefinition":[],"selectorType":"topLevel","items":[],"form":null}},"377aff99-7b28-4d92-b055-177e7c4731bd":{"settings":{"formDefinition":[{"formKey":"component-drop-zone-placeholder-settings","children":[{"formKey":"component-drop-zone-placeholder-hide","breakpoints":[],"activeFields":[{"name":"dropzoneHideSelector","active":true}]}]}],"selectorType":"topLevel","form":null,"items":[]}}},"model":{"5acef014-34ad-46a8-b3d4-8a550fafe301":{"settings":{"title":"Container - Masonry item","width":"fluid","customStyle":[{"customStyle":""}],"settings":{"width":"fluid","customStyle":[{"customStyle":""}]}},"context-visibility":{"contextVisibility":{"condition":"ALL"}},"styles":{"settings":{"element":"container"}},"markup":{"classes":"masonry-item"}},"377aff99-7b28-4d92-b055-177e7c4731bd":{"settings":{"title":"Component drop zone","dropzoneHideSelector":""}}},"previewModel":{"5acef014-34ad-46a8-b3d4-8a550fafe301":{},"377aff99-7b28-4d92-b055-177e7c4731bd":{}},"variableFields":{"5acef014-34ad-46a8-b3d4-8a550fafe301":[],"377aff99-7b28-4d92-b055-177e7c4731bd":[]},"meta":{"fieldHistory":[]}}'
+    json_mapper: '{}'
+    last_entity_update: entityupdate_0031
+    locked: false
+    modified: true
+    selectable: true
+    category: cpt_cat_uncategorized
+    preview_image: ''
+    has_quick_edit: true
+    entity_type_access: {  }
+    bundle_access: {  }
+    twig_template: component--cohesion-cpt-masonry-item
+    weight: 0
