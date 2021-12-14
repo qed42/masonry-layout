@@ -1,0 +1,1 @@
+Package files of Masonry layout to build in Acquia Site Studio.
